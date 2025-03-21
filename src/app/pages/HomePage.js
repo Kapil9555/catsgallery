@@ -46,7 +46,7 @@ const HomePage = () => {
     return (
       <Container disableGutters maxWidth='xl'>
         <Grid container justifyContent={'center'}>
-          <Grid item md={10} xs={11.5} sx={{ pt: "50px" }}>
+          <Grid item md={10} xs={11.5} sx={{ pt: "50px",pb:"30px" }}>
           <Grid item xs={12}>
           <Box sx={{ minWidth: 120 }}>
       <FormControl fullWidth>
@@ -93,7 +93,7 @@ const HomePage = () => {
         </Grid>
 
           </Grid>
-          <Grid item xs={12} sx={{ mt: "50px", display: 'flex', justifyContent: 'center' }}>
+          <Grid item xs={12} sx={{ mt: "50px", display: 'flex', justifyContent: 'center',mb:"20px" }}>
             <Button variant='contained' onClick={fetchCats}>
               Load More
             </Button>
